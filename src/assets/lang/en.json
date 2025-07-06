@@ -1,0 +1,9 @@
+{
+	"language": "en",
+	"pageTitle": "Wedding Invitation",
+	"heroHeadTitttle": "You Are Invited The Wedding Of",
+	"preHeroHeadDesc": "Will hold a wedding reception in:",
+	"inHeroHeadDesc": ["", "reception has taken place"],
+	"btnOpenText": "Open Invitation",
+	"timeFormat": ["days", "hours", "min", "sec"]
+}

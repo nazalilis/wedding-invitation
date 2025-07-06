@@ -1,0 +1,9 @@
+{
+	"language": "id",
+	"pageTitle": "Undangan Pernikahan",
+	"heroHeadTitttle": "Kepada Bapak/Ibu/Saudara/i,",
+	"preHeroHeadDesc": "Akan melangsungkan resepsi pernikahan dalam:",
+	"inHeroHeadDesc": ["Acara Resepsi", "Sudah Berlangsung"],
+	"btnOpenText": "Lihat Undangan",
+	"timeFormat": ["hari", "jam", "menit", "derik"]
+}
