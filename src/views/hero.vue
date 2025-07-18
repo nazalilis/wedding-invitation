@@ -20,9 +20,12 @@
 		<div class="hero-content text-neutral-content text-center">
 			<div class="max-w-5xl">
 				<counter :year="time[0]" :month="time[1]" :date="time[2]" :hour="time[3]" :minute="time[4]" :second="0" :milisecond="0" />
-				<a href="#home" class="btn btn-outline btn-secondary">
+				<RouterLink to="/open" class="btn btn-outline btn-secondary">
 					{{ mycf.data.lang == "en" ? enLang.btnOpenText : idLang.btnOpenText }}
-				</a>
+				</RouterLink>
+				<!-- <a href="#home" class="btn btn-outline btn-secondary">
+					{{ mycf.data.lang == "en" ? enLang.btnOpenText : idLang.btnOpenText }}
+				</a> -->
 			</div>
 		</div>
 	</div>

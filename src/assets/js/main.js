@@ -1,11 +1,13 @@
 import { createApp } from "vue";
+import "../css/font.css";
 import "../css/style.css";
-import App from "../../view/App.vue";
+import App from "../../views/App.vue";
 import mycf from "../../core/config.js";
 import idLang from "../lang/id.json";
 import enLang from "../lang/en.json";
+import router from "./router.js";
 
-createApp(App).mount("#app");
+createApp(App).use(router).mount("#app");
 
 console.log(mycf.data.lang);
 
