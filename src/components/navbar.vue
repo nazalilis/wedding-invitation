@@ -1,14 +1,25 @@
 <script setup>
 	import menuList from "./menuList.vue";
 	import themeChange from "./themeController.vue";
+	import mycf from "../core/config.js";
+</script>
+
+<script>
+	let textCouple = mycf.data.bridAndGroom.couple;
+
+	if (mycf.data.bridAndGroom.couple == "") {
+		textCouple = "My Wedding";
+	} else {
+		textCouple = mycf.data.bridAndGroom.couple + " Wedding";
+	}
 </script>
 
 <template>
 	<div class="sticky top-0 bg-base backdrop-blur-lg">
 		<div class="navbar container mx-auto w-full">
-			<RouterLink to="/" class="mx-2 flex-1 pb-2 pt-4 px-2 text-3xl font-sacramento"> Khode's Wedding </RouterLink>
+			<RouterLink to="/" class="mx-2 flex-1 pb-2 pt-4 px-2 text-3xl font-sacramento">{{ textCouple }}</RouterLink>
 			<div class="hidden flex-none sm:block">
-				<ul class="menu menu-horizontal text-base-content">
+				<ul class="menu menu-horizontal text-base-content gap-2">
 					<menuList />
 				</ul>
 			</div>
