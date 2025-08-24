@@ -3,15 +3,15 @@ export default {
 		// the language used in the invitation
 		// For this template supports 2 languages, Indonesian and English
 		// for Indonesian enter "id", and for English enter "en"
-		lang: "en",
+		lang: "en", // default "id"
 
 		// the identity of the bride and groom who will get married
 		bridAndGroom: {
 			// the identity of the bridegroom
 			him: {
-				fullName: "Little Ghost",
-				name: "Ghost",
-				description: "",
+				fullName: "Aster Flower",
+				name: "Aster",
+				description: "Aster symbolizes wisdom. This flower is often given as a sign of respect for one's wisdom and knowledge.",
 				address: "",
 				mother: "",
 				ayah: "",
@@ -19,9 +19,9 @@ export default {
 
 			// the identity of the bride
 			her: {
-				fullName: "Dandelion",
-				name: "Dandelion",
-				description: "",
+				fullName: "Anyelir Flower",
+				name: "Anyelir",
+				description: "Flowers are very popular with various meanings based on their colors. Showing a sense of love and appreciation to someone.",
 				address: "",
 				mother: "",
 				father: "",

@@ -16,8 +16,8 @@
 
 <template>
 	<div class="sticky top-0 bg-base backdrop-blur-lg">
-		<div class="navbar container mx-auto w-full">
-			<RouterLink to="/" class="mx-2 flex-1 pb-2 pt-4 px-2 text-3xl font-sacramento">{{ textCouple }}</RouterLink>
+		<div class="navbar px-6 md:px-20 lg:px-0 lg:container mx-auto w-full">
+			<RouterLink to="/" class="mx-2 flex-1 pb-2 pt-4 px-2 text-3xl font-sacramento text-nowrap">{{ textCouple }}</RouterLink>
 			<div class="hidden flex-none sm:block">
 				<ul class="menu menu-horizontal text-base-content gap-2">
 					<menuList />

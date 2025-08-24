@@ -5,5 +5,9 @@
 	"preHeroHeadDesc": "Akan melangsungkan resepsi pernikahan dalam:",
 	"inHeroHeadDesc": ["Acara Resepsi", "Sudah Berlangsung"],
 	"btnOpenText": "Lihat Undangan",
-	"timeFormat": ["hari", "jam", "menit", "derik"]
+	"timeFormat": ["hari", "jam", "menit", "derik"],
+	"monthsName": ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "Desember"],
+	"homeSectionHeader": "Acara Pernikahan",
+	"homeSectionDesc1": ["Diselenggarakan pada", "di"],
+	"homeSectionDesc2": "Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i untuk hadir pada acara pernikahan kami"
 }

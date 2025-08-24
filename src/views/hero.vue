@@ -23,9 +23,6 @@
 				<RouterLink to="/open" class="btn btn-outline btn-secondary">
 					{{ mycf.data.lang == "en" ? enLang.btnOpenText : idLang.btnOpenText }}
 				</RouterLink>
-				<!-- <a href="#home" class="btn btn-outline btn-secondary">
-					{{ mycf.data.lang == "en" ? enLang.btnOpenText : idLang.btnOpenText }}
-				</a> -->
 			</div>
 		</div>
 	</div>

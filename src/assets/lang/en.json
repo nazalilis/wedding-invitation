@@ -5,5 +5,9 @@
 	"preHeroHeadDesc": "Will hold a wedding reception in:",
 	"inHeroHeadDesc": ["", "reception has taken place"],
 	"btnOpenText": "Open Invitation",
-	"timeFormat": ["days", "hours", "min", "sec"]
+	"timeFormat": ["days", "hours", "min", "sec"],
+	"monthsName": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+	"homeSectionHeader": "The Wedding",
+	"homeSectionDesc1": ["on", "at"],
+	"homeSectionDesc2": "Therefore, with all due respect, we would like to invite you to attend our wedding ceremony"
 }
